@@ -74,6 +74,39 @@
 // // Example usage:
 // console.log(findSecondLargest([10, 20, 5, 8, 30]));
 
+// //////////////////////////////////////////////////////////////// day 3 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+// function isPrime(n) {
+//     if(n < 2) return false;
+//     if(n === 2) return true;
+//     if(n % 2 === 0) return false;
+
+//     for (let i = 3; i <=Math.sqrt(n); i += 2){
+//         if(n % i === 0) return false
+//     }
+
+//     return true;
+    
+// };
+
+// console.log(isPrime(1))
+
+
+
+
+
+
+// function secondLargest(arr) {
+//     if(arr.length < 2) return null ;
+
+//     let sort = [...new Set(arr)].sort((a,b) => b - a);
+//     return sort.length > 1 ? sort[1] : null;
+
+// }
+
+// console.log(secondLargest([1,2,3,4,5,6,7]))
+
+
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
