@@ -166,15 +166,61 @@
 
 
 
-function onlyDigit(str) {
-    for(let char of str){
+// function onlyDigit(str) {
+//     for(let char of str){
 
-        if(char < '0' || char > '9'){
-            return false;
-        }
-    }
-    return true;
+//         if(char < '0' || char > '9'){
+//             return false;
+//         }
+//     }
+//     return true;
 
-}
+// }
 
-console.log(onlyDigit("abc123"))
+// console.log(onlyDigit("abc123"))
+
+
+
+// ////////////////////////////////////////////////////////////////////////////day 6////////////////////////////////////////////////////////////////////////////////////////////
+
+// function sortKey(obj){
+
+//     return Object.keys(obj)
+
+//     .sort()
+//     .reduce ((acc,key)=>{
+//         acc[key] = obj[key]
+//         return acc;
+//     }, {});
+
+// }
+
+// const unsortedObj = {c:3, a:1, d:4, b:2}
+
+// const sorted = sortKey(unsortedObj);
+// console.log(sorted)
+
+
+
+
+// function maxValue(arr,property) {
+//     if(!Array.isArray(arr) || arr.length == 0) return null;
+
+// const value = arr
+
+// .map(obj => obj[property])
+// .filter(val => typeof val === "number")
+
+// return value.length ? Math.max(...value) : null;
+
+// }
+
+// const data = [
+//     { name: "Alice", age: 25 },
+//     { name: "Bob", age: 30 },
+//     { name: "Charlie", age: 28 }
+// ];
+
+// console.log(maxValue(data,"age"))
+
+// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
