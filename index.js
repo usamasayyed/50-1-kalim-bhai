@@ -367,3 +367,42 @@
 
 
 // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// /////////////////////////////////////////////////////////////////////Day 12///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// function countVowels (str){
+// let count = 0;
+
+// str=str.toLowerCase();
+
+// for(let i = 0; i < str.length; i++){
+//     let char = str[i];
+
+//     if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+//         count ++
+//     }
+// }
+// return count
+
+// }
+
+// console.log(countVowels("ieweuhfd"))
+// console.log(countVowels("jsgdyufuyuewbjhewfwuh32udiqwhbksac"))
+
+
+
+
+
+
+// const obj = {
+// name:"osama",
+// greet:function (){
+//     console.log("hello" + this.name)
+// },
+// }
+
+// const greetFn = obj.greet
+
+// console.log(greetFn())
