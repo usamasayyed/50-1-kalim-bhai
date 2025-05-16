@@ -373,34 +373,48 @@
 
 // /////////////////////////////////////////////////////////////////////Day 13///////////////////////////////////////////////////////////////////////////////////////////////////
 
-let str = "osama"
-let str2  =[...str].reverse().join("")
-console.log(str2)
+// let str = "osama"
+// let str2  =[...str].reverse().join("")
+// console.log(str2)
 
-function reverss(str){
+// function reverss(str){
+// return str.split('').reverse().join("")
+// }
+// console.log(reverss("osama"))
 
-return str.split('').reverse().join("")
+// function palindrom(str) {
+//   let palim = str.toUpperCase().split("").reverse().join("");
 
-}
+//   if ( str.toUpperCase() === palim) {
+//     console.log(`${palim} is palindrom `);
+//   } else {
+//     console.log(`${palim} is not palindrom `);
+//   }
+// }
 
-console.log(reverss("osama"))
+// console.log(palindrom("lol"));
+// console.log(palindrom("come"));
+// console.log(palindrom("madam"));
+
+// /////////////////////////////////////////////////////////////////////Day 14///////////////////////////////////////////////////////////
+
+
+function Duplicate(arr) {
+  let copy = [];
+
+  arr.forEach((element) => {
+    if(!copy.includes(element)){
+    copy.push(element)
+    }
+
+  });
+  return copy
+ }
+
+let arr= [1,2,3,4,4,5,6,7,7,8,8]
+
+console.log(Duplicate(arr))
 
 
 
-
-
-
-function palindrom(str) {
-  let palim = str.toUpperCase().split("").reverse().join("");
-
-  if ( str.toUpperCase() === palim) {
-    console.log(`${palim} is palindrom `);
-  } else {
-    console.log(`${palim} is not palindrom `);
-  }
-}
-
-console.log(palindrom("lol"));
-console.log(palindrom("come"));
-console.log(palindrom("madam"));
 
